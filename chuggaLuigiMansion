@@ -44,8 +44,11 @@ while True:
 
 #videos = driver.find_elements(By.XPATH, "//*[@id='contents']//a[id='video-title']")
 
-videos = driver.find_elements(By.ID, "video-title")
+#TO-DO See if you are able to put the title and link in the same list 
+#TO-DO Try to use a dictionary
 
+videos = driver.find_elements(By.ID, "video-title")
+links = driver.find_elements(By.ID, "video-title]").get_attribute('href')
 #it looks in the div with id = contents and the class name, which then finds title
 #name based on the requirements
 
@@ -55,6 +58,10 @@ for video in videos:
 	#print(video)
 	title = video.text
 	#print(title)
+	
+	#for link in links:
+	#	videoLink = link.text
 	if findString in title:
 		print(title)
+	#	print(videoLink)
 
