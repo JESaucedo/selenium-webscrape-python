@@ -1,0 +1,403 @@
+1679092132245	geckodriver	INFO	Listening on 127.0.0.1:50006
+1679092132761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50007" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile54vOvc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679092133189	Marionette	INFO	Marionette enabled
+1679092133232	Marionette	INFO	Listening on port 50013
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 50013
+WebDriver BiDi listening on ws://127.0.0.1:50007
+1679092133318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile54vOvc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50007/devtools/browser/869b1ade-7617-4600-a413-b4ed365a7def
+1679092135082	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679092270826	geckodriver	INFO	Listening on 127.0.0.1:50124
+1679092271343	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50125" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileSbJLtu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679092271646	Marionette	INFO	Marionette enabled
+1679092271793	Marionette	INFO	Listening on port 50130
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50125
+Read port: 50130
+1679092271946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileSbJLtu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50125/devtools/browser/aac87ee5-de22-4716-970c-1efeafa08b84
+1679092273472	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679092340683	geckodriver	INFO	Listening on 127.0.0.1:50190
+1679092341200	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50191" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilepljCIe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679092341507	Marionette	INFO	Marionette enabled
+1679092341667	Marionette	INFO	Listening on port 50196
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50191
+Read port: 50196
+1679092341820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilepljCIe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50191/devtools/browser/5aac8d39-65ce-4802-bc87-53ae715386aa
+1679092343333	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 35744, MediaDecoderStateMachine #1] WARNING: Decoder=12548eb00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 35744, MediaDecoderStateMachine #1] WARNING: Decoder=12548eb00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 35744, MediaDecoderStateMachine #1] WARNING: Decoder=10e51bd00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 35744, MediaDecoderStateMachine #1] WARNING: Decoder=10e51bd00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 35744, MediaDecoderStateMachine #1] WARNING: Decoder=11d8a7100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 35744, MediaDecoderStateMachine #1] WARNING: Decoder=11d8a7100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679092410468	Marionette	INFO	Stopped listening on port 50013
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679092501500	geckodriver	INFO	Listening on 127.0.0.1:50261
+1679092502016	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50262" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileXlTH6l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679092502373	Marionette	INFO	Marionette enabled
+1679092502522	Marionette	INFO	Listening on port 50267
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 50267
+WebDriver BiDi listening on ws://127.0.0.1:50262
+1679092502575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileXlTH6l/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50262/devtools/browser/1a7c2570-ffdc-4be8-bf98-5d5f077d00cb
+1679092504207	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679092611962	geckodriver	INFO	Listening on 127.0.0.1:50329
+1679092612478	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50330" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilej1Y6pT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679092612774	Marionette	INFO	Marionette enabled
+1679092612815	Marionette	INFO	Listening on port 50335
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 50335
+WebDriver BiDi listening on ws://127.0.0.1:50330
+1679092612975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilej1Y6pT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50330/devtools/browser/94250f75-fe62-4a34-8352-48024ed78647
+1679092614802	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679092945589	geckodriver	INFO	Listening on 127.0.0.1:50474
+1679092946107	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50475" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileChQnyO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679092946411	Marionette	INFO	Marionette enabled
+1679092946452	Marionette	INFO	Listening on port 50480
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 50480
+WebDriver BiDi listening on ws://127.0.0.1:50475
+1679092946613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileChQnyO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50475/devtools/browser/d77cf19b-4124-4dcd-8547-f6fa36043917
+1679092948341	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679094247175	geckodriver	INFO	Listening on 127.0.0.1:50648
+1679094247692	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50649" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilet8EQsE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679094248059	Marionette	INFO	Marionette enabled
+1679094248208	Marionette	INFO	Listening on port 50654
+Read port: 50654
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50649
+1679094248266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilet8EQsE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50649/devtools/browser/339cae73-f907-4ca6-88d5-9c573c65e1bb
+1679094250166	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679094381429	Marionette	INFO	Stopped listening on port 50130
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679094386290	Marionette	INFO	Stopped listening on port 50196
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679094389065	Marionette	INFO	Stopped listening on port 50267
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679094391522	Marionette	INFO	Stopped listening on port 50335
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679094484119	geckodriver	INFO	Listening on 127.0.0.1:50744
+1679094484635	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50745" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiledo7gIM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679094484943	Marionette	INFO	Marionette enabled
+1679094485091	Marionette	INFO	Listening on port 50750
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50745
+Read port: 50750
+1679094485242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiledo7gIM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50745/devtools/browser/e73c9e7c-463d-4dfd-b9b1-de86c8e010f0
+1679094486730	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679095923169	geckodriver	INFO	Listening on 127.0.0.1:51152
+1679095923685	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51153" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile2RrTXN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679095924013	Marionette	INFO	Marionette enabled
+1679095924059	Marionette	INFO	Listening on port 51158
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51158
+WebDriver BiDi listening on ws://127.0.0.1:51153
+1679095924156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile2RrTXN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51153/devtools/browser/b1c65d86-3f8e-4341-aedd-bcba2899d710
+1679095925938	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679095951583	geckodriver	INFO	Listening on 127.0.0.1:51223
+1679095952098	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51224" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileojOQIb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679095952398	Marionette	INFO	Marionette enabled
+1679095952436	Marionette	INFO	Listening on port 51229
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51229
+WebDriver BiDi listening on ws://127.0.0.1:51224
+1679095952596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileojOQIb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51224/devtools/browser/12a653c5-9836-472e-8b9b-ef3f482ad353
+1679095954083	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679096672647	geckodriver	INFO	Listening on 127.0.0.1:51467
+1679096673162	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51468" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilePoDEAl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679096673553	Marionette	INFO	Marionette enabled
+1679096673705	Marionette	INFO	Listening on port 51473
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51468
+Read port: 51473
+1679096673885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilePoDEAl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51468/devtools/browser/faac12bf-0e15-4983-9d1c-a0f25274ba3a
+1679096675654	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679096741629	geckodriver	INFO	Listening on 127.0.0.1:51544
+1679096742145	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51545" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiley6j0WG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679096742475	Marionette	INFO	Marionette enabled
+1679096742637	Marionette	INFO	Listening on port 51550
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51550
+WebDriver BiDi listening on ws://127.0.0.1:51545
+1679096742692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiley6j0WG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51545/devtools/browser/75e89214-97dd-478b-9cbf-34a296ef4b03
+1679096744590	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1679128152133	Marionette	INFO	Stopped listening on port 50480
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679128154114	Marionette	INFO	Stopped listening on port 50654
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1679128156038	Marionette	INFO	Stopped listening on port 50750
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1679128158080	Marionette	INFO	Stopped listening on port 51158
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679128159991	Marionette	INFO	Stopped listening on port 51229
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679128161807	Marionette	INFO	Stopped listening on port 51473
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679128163811	Marionette	INFO	Stopped listening on port 51550
+JavaScript error: https://www.youtube.com/playlist?list=PL4AA27D7B17941523, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PL4AA27D7B17941523, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PL4AA27D7B17941523, line 12: TypeError: can't access dead object
+1679273701222	geckodriver	INFO	Listening on 127.0.0.1:54272
+1679273701744	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54273" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileKppeTm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679273702146	Marionette	INFO	Marionette enabled
+1679273702200	Marionette	INFO	Listening on port 54278
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 54278
+WebDriver BiDi listening on ws://127.0.0.1:54273
+1679273702299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileKppeTm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54273/devtools/browser/58d3f05f-af62-4c1b-843b-95d07738c5b0
+1679273704125	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679273741351	Marionette	INFO	Stopped listening on port 54278
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1679273892309	geckodriver	INFO	Listening on 127.0.0.1:54348
+1679273892826	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54349" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilenuOste"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679273893126	Marionette	INFO	Marionette enabled
+1679273893273	Marionette	INFO	Listening on port 54354
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54349
+Read port: 54354
+1679273893423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilenuOste/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54349/devtools/browser/0bbca7be-51f6-4f19-bf05-350c1978b1ae
+1679273895058	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679273972435	geckodriver	INFO	Listening on 127.0.0.1:54428
+1679273972953	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54429" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileTl6ErZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679273973262	Marionette	INFO	Marionette enabled
+1679273973416	Marionette	INFO	Listening on port 54434
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54429
+Read port: 54434
+1679273973572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileTl6ErZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54429/devtools/browser/daca55b0-8b9a-488c-aa87-e7837c5d4700
+1679273975226	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 38879, MediaDecoderStateMachine #1] WARNING: Decoder=120ed7100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 38879, MediaDecoderStateMachine #1] WARNING: Decoder=120ed7100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679274358709	geckodriver	INFO	Listening on 127.0.0.1:54510
+1679274359225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54511" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileEtRuuw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679274359609	Marionette	INFO	Marionette enabled
+1679274359762	Marionette	INFO	Listening on port 54516
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54511
+Read port: 54516
+1679274359928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileEtRuuw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54511/devtools/browser/f49b2bcc-68d0-4d44-bf69-19ac4cc5de67
+1679274361673	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
