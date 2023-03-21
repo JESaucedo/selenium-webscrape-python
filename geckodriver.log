@@ -401,3 +401,374 @@ UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadabl
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileEtRuuw/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:54511/devtools/browser/f49b2bcc-68d0-4d44-bf69-19ac4cc5de67
 1679274361673	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679354060336	geckodriver	INFO	Listening on 127.0.0.1:56900
+1679354060858	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56901" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileVZ2vuM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679354061262	Marionette	INFO	Marionette enabled
+1679354061309	Marionette	INFO	Listening on port 56906
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 56906
+WebDriver BiDi listening on ws://127.0.0.1:56901
+1679354061414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileVZ2vuM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56901/devtools/browser/bdbf7180-f36e-4575-81bb-3e9f42240716
+1679354063241	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679354397643	geckodriver	INFO	Listening on 127.0.0.1:57021
+1679354398155	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57022" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileZuSOSP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679354398486	Marionette	INFO	Marionette enabled
+1679354398642	Marionette	INFO	Listening on port 57027
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57027
+WebDriver BiDi listening on ws://127.0.0.1:57022
+1679354398703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileZuSOSP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57022/devtools/browser/18fcd4e9-a62d-41d1-9f1f-3d37d3099fae
+1679354400466	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679354492375	geckodriver	INFO	Listening on 127.0.0.1:57095
+1679354492893	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57096" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilek1EpbA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679354493235	Marionette	INFO	Marionette enabled
+1679354493384	Marionette	INFO	Listening on port 57101
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57101
+WebDriver BiDi listening on ws://127.0.0.1:57096
+1679354493440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilek1EpbA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57096/devtools/browser/4d159356-9073-4079-94b6-18c147f29618
+1679354494930	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 40877, MediaDecoderStateMachine #1] WARNING: Decoder=127b14d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 40877, MediaDecoderStateMachine #1] WARNING: Decoder=127b14d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679354980534	geckodriver	INFO	Listening on 127.0.0.1:57215
+1679354981048	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57216" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileprPC7o"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679354981389	Marionette	INFO	Marionette enabled
+1679354981541	Marionette	INFO	Listening on port 57221
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57221
+WebDriver BiDi listening on ws://127.0.0.1:57216
+1679354981597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileprPC7o/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57216/devtools/browser/d0753a9f-87e4-4dff-a3c6-f8830420671e
+1679354983307	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679355006869	geckodriver	INFO	Listening on 127.0.0.1:57284
+1679355007387	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57285" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilenRbb7P"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679355007709	Marionette	INFO	Marionette enabled
+1679355007862	Marionette	INFO	Listening on port 57290
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:57285
+Read port: 57290
+1679355007988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilenRbb7P/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57285/devtools/browser/1c401a45-beaa-49e5-831c-c3fea254cdc7
+1679355009778	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679355921671	geckodriver	INFO	Listening on 127.0.0.1:57697
+1679355922189	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57698" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile2rikxe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679355922521	Marionette	INFO	Marionette enabled
+1679355922568	Marionette	INFO	Listening on port 57703
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57703
+WebDriver BiDi listening on ws://127.0.0.1:57698
+1679355922656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile2rikxe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57698/devtools/browser/040c2edb-b1f8-48a7-8da2-dedfc7dda0fd
+1679355924573	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 41111, MediaDecoderStateMachine #1] WARNING: Decoder=11b90f400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 41111, MediaDecoderStateMachine #1] WARNING: Decoder=11b90f400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679356210455	geckodriver	INFO	Listening on 127.0.0.1:57790
+1679356210972	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57791" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilewB9Cam"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356211351	Marionette	INFO	Marionette enabled
+1679356211501	Marionette	INFO	Listening on port 57796
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:57791
+Read port: 57796
+1679356211663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilewB9Cam/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57791/devtools/browser/1fb17162-b44f-46e8-97ae-d142f7c81b89
+1679356213238	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679356279725	geckodriver	INFO	Listening on 127.0.0.1:57881
+1679356280242	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57882" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileYeEXdq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356280558	Marionette	INFO	Marionette enabled
+1679356280599	Marionette	INFO	Listening on port 57887
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57887
+WebDriver BiDi listening on ws://127.0.0.1:57882
+1679356280760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileYeEXdq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57882/devtools/browser/cdb7dfe4-eee2-4ec0-a398-a964b01c3b90
+1679356282388	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679356524531	geckodriver	INFO	Listening on 127.0.0.1:57993
+1679356525044	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57994" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilew2vosV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356525389	Marionette	INFO	Marionette enabled
+1679356525538	Marionette	INFO	Listening on port 57999
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57999
+WebDriver BiDi listening on ws://127.0.0.1:57994
+1679356525592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilew2vosV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57994/devtools/browser/81e47522-3364-4e01-87b1-c2fe0c23b025
+1679356527678	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679356608881	geckodriver	INFO	Listening on 127.0.0.1:58067
+1679356609397	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58068" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileM4QKoX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356609716	Marionette	INFO	Marionette enabled
+1679356609866	Marionette	INFO	Listening on port 58073
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58068
+Read port: 58073
+1679356610026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileM4QKoX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58068/devtools/browser/84729c37-4dc5-4e69-97b8-495e20842818
+1679356611842	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356644517	Marionette	INFO	Stopped listening on port 56906
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/s/desktop/51bd30d1/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 9981: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356646813	Marionette	INFO	Stopped listening on port 57027
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356648567	Marionette	INFO	Stopped listening on port 57101
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356651772	Marionette	INFO	Stopped listening on port 57221
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356653419	Marionette	INFO	Stopped listening on port 57290
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356655003	Marionette	INFO	Stopped listening on port 57703
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356656747	Marionette	INFO	Stopped listening on port 57796
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679356707221	geckodriver	INFO	Listening on 127.0.0.1:58143
+1679356707739	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58144" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileZVa814"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356708042	Marionette	INFO	Marionette enabled
+1679356708080	Marionette	INFO	Listening on port 58149
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58144
+Read port: 58149
+1679356708240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileZVa814/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58144/devtools/browser/592e4382-71e2-4f27-aed6-108c6532f31a
+1679356709794	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 41476, MediaDecoderStateMachine #1] WARNING: Decoder=10df11900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 41476, MediaDecoderStateMachine #1] WARNING: Decoder=10df11900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679356779730	geckodriver	INFO	Listening on 127.0.0.1:58213
+1679356780247	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58214" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilec9olyp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356780554	Marionette	INFO	Marionette enabled
+1679356780592	Marionette	INFO	Listening on port 58219
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58214
+Read port: 58219
+1679356780791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilec9olyp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58214/devtools/browser/383ccea9-bac6-40ae-bbc9-8aa0900c9742
+1679356782494	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679356825197	geckodriver	INFO	Listening on 127.0.0.1:58278
+1679356825713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58279" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilePCUF1M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356826019	Marionette	INFO	Marionette enabled
+1679356826060	Marionette	INFO	Listening on port 58284
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58279
+Read port: 58284
+1679356826258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilePCUF1M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58279/devtools/browser/771ae3a9-6166-4844-874b-a33aa212d847
+1679356827974	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679356867548	geckodriver	INFO	Listening on 127.0.0.1:58344
+1679356868066	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58345" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileGsLmv9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356868392	Marionette	INFO	Marionette enabled
+1679356868540	Marionette	INFO	Listening on port 58350
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58345
+Read port: 58350
+1679356868654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileGsLmv9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58345/devtools/browser/37cb01e5-f22a-4422-a99d-ebe23271a232
+1679356870426	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679356955010	geckodriver	INFO	Listening on 127.0.0.1:58419
+1679356955522	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58420" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileSjNtaw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679356955838	Marionette	INFO	Marionette enabled
+1679356955881	Marionette	INFO	Listening on port 58425
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 58425
+WebDriver BiDi listening on ws://127.0.0.1:58420
+1679356956058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileSjNtaw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58420/devtools/browser/2fc104a1-b7cc-41ce-b9cc-2164ae51276f
+1679356957615	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679357129790	geckodriver	INFO	Listening on 127.0.0.1:58509
+1679357130307	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58510" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilexkWMSL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679357130619	Marionette	INFO	Marionette enabled
+1679357130660	Marionette	INFO	Listening on port 58515
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58510
+Read port: 58515
+1679357130817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilexkWMSL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58510/devtools/browser/4a5611dc-d5d4-4647-8f13-0630ede39a55
+1679357132699	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679357165634	geckodriver	INFO	Listening on 127.0.0.1:58576
+1679357166153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58577" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileIoE2A9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679357166495	Marionette	INFO	Marionette enabled
+1679357166644	Marionette	INFO	Listening on port 58582
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 58582
+WebDriver BiDi listening on ws://127.0.0.1:58577
+1679357166698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileIoE2A9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58577/devtools/browser/45f47795-4470-4e78-9a17-782b164a1ee9
+1679357168535	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679359901073	Marionette	INFO	Stopped listening on port 57887
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 13: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 13: TypeError: can't access dead object
+1679359903981	Marionette	INFO	Stopped listening on port 57999
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 13: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 13: TypeError: can't access dead object
+1679359906489	Marionette	INFO	Stopped listening on port 58073
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679359909015	Marionette	INFO	Stopped listening on port 58149
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679359911449	Marionette	INFO	Stopped listening on port 58219
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679359913864	Marionette	INFO	Stopped listening on port 58284
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679359916362	Marionette	INFO	Stopped listening on port 58350
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://www.youtube.com/s/desktop/51bd30d1/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 9981: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679359918617	Marionette	INFO	Stopped listening on port 58425
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://www.youtube.com/s/desktop/51bd30d1/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 9981: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679359921101	Marionette	INFO	Stopped listening on port 58515
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
