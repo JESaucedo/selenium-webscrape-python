@@ -772,3 +772,56 @@ JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12
 JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
 JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
 JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679593036025	Marionette	INFO	Stopped listening on port 58582
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1679602807866	geckodriver	INFO	Listening on 127.0.0.1:49258
+1679602808383	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49259" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile3dcKSi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679602808688	Marionette	INFO	Marionette enabled
+1679602808830	Marionette	INFO	Listening on port 49264
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49259
+Read port: 49264
+1679602808985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofile3dcKSi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49259/devtools/browser/30761e36-bd2f-4e7e-9757-a0c67e6d7c36
+1679602810582	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 47751, MediaDecoderStateMachine #1] WARNING: Decoder=1269e7100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 47751, MediaDecoderStateMachine #1] WARNING: Decoder=1269e7100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1679603097713	geckodriver	INFO	Listening on 127.0.0.1:49341
+1679603098232	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49342" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileosZvVj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679603098611	Marionette	INFO	Marionette enabled
+1679603098650	Marionette	INFO	Listening on port 49347
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49342
+Read port: 49347
+1679603098850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileosZvVj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49342/devtools/browser/8c480df6-6b3d-4817-ae43-49237b76db0a
+1679603100514	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1679603341364	geckodriver	INFO	Listening on 127.0.0.1:49414
+1679603341883	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49415" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiletPGwRA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679603342182	Marionette	INFO	Marionette enabled
+1679603342221	Marionette	INFO	Listening on port 49420
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49415
+Read port: 49420
+1679603342417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiletPGwRA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49415/devtools/browser/8d03955c-14ba-4720-87a0-cb9c2ed4a571
+1679603344081	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.google.com/js/th/zSRPe1x9Qzj8HrqOv9VzSTVp8VQLU5DvkSPeJaRtFaU.js line 2 > eval line 4166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
