@@ -2,7 +2,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+import sys
 SCROLL_PAUSE_TIME = 1
+
+
+original_stdout = sys.stdout
 
 
 #the links needed to webscrape
@@ -59,15 +63,20 @@ videos = driver.find_elements(By.TAG_NAME, "a")
 
 #prints out the list of videos (or it's supposed to)
 findString = "Luigi's Mansion"
-for video in videos:
+with open('Luigi_Mansion_Videos.txt', 'w') as f:
+	for video in videos:
 	#print(video.text)
-	title = video.get_attribute("title")
-	href = video.get_attribute("href")
+		title = video.get_attribute("title")
+		href = video.get_attribute("href")
 	#print(title)
 	#print(href)
 	#for link in links:
 	#	videoLink = link.text
-	if findString in video.text:
-		print(title)
-		print(href)
-
+		if findString in video.text:
+			print(title)
+			f.write(title)
+			f.write("\n")
+			print(href)
+			f.write(href)
+			f.write("\n")
+	

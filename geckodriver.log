@@ -772,3 +772,86 @@ JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12
 JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
 JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
 JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679606455810	geckodriver	INFO	Listening on 127.0.0.1:49656
+1679606456326	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49657" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileR8904h"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679606456653	Marionette	INFO	Marionette enabled
+1679606456804	Marionette	INFO	Listening on port 49662
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49657
+Read port: 49662
+1679606456930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileR8904h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49657/devtools/browser/47aabaeb-e17f-40dd-8e3c-551750e5a50a
+1679606459311	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679607212428	geckodriver	INFO	Listening on 127.0.0.1:49869
+1679607212944	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49870" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileNDTbPY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679607213314	Marionette	INFO	Marionette enabled
+1679607213458	Marionette	INFO	Listening on port 49875
+Read port: 49875
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49870
+1679607213514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileNDTbPY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49870/devtools/browser/9cb9788c-0e42-4fed-9149-2c50174e0fb7
+1679607215351	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 48367, MediaDecoderStateMachine #1] WARNING: Decoder=10bd11900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 48367, MediaDecoderStateMachine #1] WARNING: Decoder=10bd11900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 48367, MediaDecoderStateMachine #1] WARNING: Decoder=10bd11c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 48367, MediaDecoderStateMachine #1] WARNING: Decoder=10bd11c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679607294316	Marionette	INFO	Stopped listening on port 49662
+1679608054957	geckodriver	INFO	Listening on 127.0.0.1:50031
+1679608055474	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50032" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilehOAjGR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679608055859	Marionette	INFO	Marionette enabled
+1679608055909	Marionette	INFO	Listening on port 50037
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50032
+Read port: 50037
+1679608056092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilehOAjGR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50032/devtools/browser/5679ed75-c46b-4c0b-9802-0b0c39dedee2
+1679608057816	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 48575, MediaDecoderStateMachine #1] WARNING: Decoder=10a1ac100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 48575, MediaDecoderStateMachine #1] WARNING: Decoder=10a1ac100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+1679680630990	Marionette	INFO	Stopped listening on port 49875
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679680633146	Marionette	INFO	Stopped listening on port 50037
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@chugga/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1679690748090	geckodriver	INFO	Listening on 127.0.0.1:53273
+1679690748609	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53274" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiler2JUM6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679690748995	Marionette	INFO	Marionette enabled
+1679690749037	Marionette	INFO	Listening on port 53279
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53274
+Read port: 53279
+1679690749213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofiler2JUM6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53274/devtools/browser/a41fe39a-e56c-4d73-a75f-432e96a39534
+1679690750850	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679691254821	geckodriver	INFO	Listening on 127.0.0.1:53423
+1679691255338	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53424" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileyxo8J4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679691255665	Marionette	INFO	Marionette enabled
+1679691255811	Marionette	INFO	Listening on port 53429
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53424
+Read port: 53429
+1679691255964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileyxo8J4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53424/devtools/browser/c4dbdfae-24e9-4033-91f5-41b70c11721d
+1679691257614	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
