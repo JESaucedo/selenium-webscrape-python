@@ -1,2 +1,6 @@
 
 geckodriver.log
+*.log
+geckodriver.log
+geckodriver.log
+*.log
