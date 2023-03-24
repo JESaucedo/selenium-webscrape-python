@@ -855,3 +855,17 @@ UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadabl
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofileyxo8J4/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:53424/devtools/browser/c4dbdfae-24e9-4033-91f5-41b70c11721d
 1679691257614	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679692445312	geckodriver	INFO	Listening on 127.0.0.1:53607
+1679692445828	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53608" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilePxyDaA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679692446179	Marionette	INFO	Marionette enabled
+1679692446223	Marionette	INFO	Listening on port 53613
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 53613
+WebDriver BiDi listening on ws://127.0.0.1:53608
+1679692446313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3x/qpyt3pnj4vq1v0h_5ygsszw00000gn/T/rust_mozprofilePxyDaA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53608/devtools/browser/0df44381-2af4-4fe6-b958-a6261cc1eced
+1679692447992	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.

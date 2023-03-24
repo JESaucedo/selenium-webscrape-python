@@ -11,7 +11,6 @@ original_stdout = sys.stdout
 
 #the links needed to webscrape
 url = 'https://www.youtube.com/playlist?list=PL4AA27D7B17941523'
-url2 = 'https://www.mariowiki.com/1-Up_Mushroom'
 url3 = 'https://www.youtube.com/@chugga/videos'
 
 
@@ -19,7 +18,6 @@ url3 = 'https://www.youtube.com/@chugga/videos'
 #this is where it opens firefox and uses the url
 driver = webdriver.Firefox()
 #driver.get(url)
-#driver.get(url2)
 driver.get(url3)
 
 
@@ -27,6 +25,9 @@ driver.get(url3)
 #uses wait to make sure the page loads
 driver.implicitly_wait(30)
 
+
+
+#used to scroll all the way to the bottom of the page
 last_height = driver.execute_script("return document.documentElement.scrollHeight")
 
 while True:
@@ -40,43 +41,24 @@ while True:
 	last_height = new_height
 
 
-#this is what gets all the titles correctly
-#videos = driver.find_elements(By.XPATH, "//div[@id='contents' and @class='style-scope ytd-playlist-video-list-renderer']//a[@id='video-title']")
-
-#videos = driver.find_elements(By.XPATH, "//div[@id='details' and @class='style-scope ytd-rich-grid-media']//a[@id='video-title']")
-
-#videos = driver.find_elements(By.XPATH, "//*[@id='contents']//a[id='video-title']")
-
-#TO-DO See if you are able to put the title and link in the same list 
-#TO-DO Try to use a dictionary
-
-#videos = driver.find_elements(By.ID, "video-title")
-#links = driver.find_elements(By.ID, "video-title").get_attribute('href')
-
-
-
-#videos = [driver.find_elements(By.ID, "video-title"), driver.find_elements(By.ID, "video-title").get_attribute('href')]
+#gets all the elements found in the TAG_NAME "a"
 videos = driver.find_elements(By.TAG_NAME, "a")
-#links = videos.get_attribute('href')
-#it looks in the div with id = contents and the class name, which then finds title
-#name based on the requirements
 
-#prints out the list of videos (or it's supposed to)
+
+#uses this to filter out which videos are added to the file
 findString = "Luigi's Mansion"
+
+
+#writes the list of videos to a named file
 with open('Luigi_Mansion_Videos.txt', 'w') as f:
 	for video in videos:
-	#print(video.text)
 		title = video.get_attribute("title")
 		href = video.get_attribute("href")
-	#print(title)
-	#print(href)
-	#for link in links:
-	#	videoLink = link.text
 		if findString in video.text:
-			print(title)
+			#print(title)
 			f.write(title)
 			f.write("\n")
-			print(href)
+			#print(href)
 			f.write(href)
 			f.write("\n")
 	
