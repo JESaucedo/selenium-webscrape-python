@@ -1,0 +1,63 @@
+#necessary to use selenium
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+import sys
+SCROLL_PAUSE_TIME = 1
+
+
+original_stdout = sys.stdout
+
+
+#the links needed to webscrape
+url = 'https://www.youtube.com/playlist?list=PL4AA27D7B17941523'
+url3 = 'https://www.youtube.com/@chugga/videos'
+url2 = 'https://www.youtube.com/watch?v=ZUpS1kJGmXE'
+url4 = 'https://www.youtube.com/watch?v=9hitE963VZw'
+url5 = 'https://www.youtube.com/watch?v=3CJTQ6EP1xY'
+
+#this is where it opens firefox and uses the url
+driver = webdriver.Firefox()
+#driver.get(url)
+driver.get(url5)
+
+
+
+#uses wait to make sure the page loads
+driver.implicitly_wait(30)
+
+#get element for the 3 dots
+#id = actions  or aria-label = "More Actions"
+
+moreOptions = driver.find_element(By.XPATH, "/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[2]/div/div/ytd-menu-renderer/yt-button-shape/button")
+
+moreOptions.click()
+#get element for Show transcript
+
+showTranscript = driver.find_elements(By.TAG_NAME, "yt-formatted-string")
+
+
+for element in showTranscript:
+	#print(element)
+	if (element.text == "Show transcript"):
+		element.click()
+		break		
+
+
+#get words from transcript
+
+#printTranscript = driver.find_elements(By.CLASS_NAME, "segment-text style-scope ytd-transcript-segment-renderer")
+#printTranscript = driver.find_elements(By.CLASS_NAME, "segment style-scope ytd-transcript-segment-renderer")
+
+printTranscript = driver.find_elements(By.TAG_NAME, "ytd-transcript-segment-list-renderer")
+#i = 1
+#printTranscript = printOldTranscript[::2]
+#printTranscript = driver.find_elements(By.TAG_NAME, "yt-formatted-string")
+
+with open('TempOutput.txt', 'w') as f:
+	for segment in printTranscript:
+		#if():
+		#	print(segment.text)
+		#print(segment.text)
+		f.write(segment.text)
+		#i+=1
